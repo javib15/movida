@@ -1,0 +1,8 @@
+[12-Oct-2020 00:18:52 UTC] PHP Notice:  Undefined index: mail in /home/f71a3bbtaxtc/public_html/send.php on line 3
+[12-Oct-2020 00:18:53 UTC] PHP Notice:  Undefined variable: email in /home/f71a3bbtaxtc/public_html/send.php on line 29
+[12-Oct-2020 00:26:40 UTC] PHP Notice:  Undefined index: mail in /home/f71a3bbtaxtc/public_html/send.php on line 3
+[12-Oct-2020 00:26:40 UTC] PHP Notice:  Undefined variable: email in /home/f71a3bbtaxtc/public_html/send.php on line 29
+[14-Oct-2020 11:24:50 UTC] PHP Notice:  Undefined index: mail in /home/f71a3bbtaxtc/public_html/send.php on line 3
+[14-Oct-2020 11:24:50 UTC] PHP Notice:  Undefined variable: email in /home/f71a3bbtaxtc/public_html/send.php on line 29
+[14-Oct-2020 11:31:12 UTC] PHP Notice:  Undefined index: mail in /home/f71a3bbtaxtc/public_html/send.php on line 3
+[14-Oct-2020 11:31:13 UTC] PHP Notice:  Undefined variable: email in /home/f71a3bbtaxtc/public_html/send.php on line 29
