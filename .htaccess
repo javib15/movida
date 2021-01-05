@@ -1,4 +1,4 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^(www\.)?movidasxm\.com
-RewriteRule ^(.*)$ https://www.movidasxm.com/$12 [R,L]
+RewriteRule ^(.*)$ https://www.movidasxm.com/$1 [R,L]
