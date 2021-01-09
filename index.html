@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" type="image/ico" href="/images/icon1.ico" />
 	</head>
 	<body class="is-preload">
 
@@ -36,7 +37,7 @@
 						<ul class="links">
 							<li class="active"><a href="#nav" class="scrolly">MENU</a></li>
 							<li class="actions"><a href="#footer" class="scrolly">CONTACT</a></li>
-							<!--<li><a href="elements.html">Elements Reference</a></li>-->
+							<li class="actions"><a href="#reservations" class="scrolly">RESERVATIONS</a></li>
 						</ul>
 						</ul>
 						<ul class="icons">
@@ -48,11 +49,10 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">Reservations Restaurant</span>
+									<span class="date">Rostisserie & Grill</span>
 									<h2>MENU<br /></h2>
 									<p>Please be advised that food prepared here may contain these ingredients: Milk, eggs, wheat, soybean, peanuts, tree nuts, fish and shellfish</p>
 									<p></p>
@@ -63,98 +63,87 @@
 								</ul>
 							</article>
 
-						<!-- Posts 
-							<section class="posts">
+						 <div Id ="reservations">
+							<section class="post featured">
 								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+									<header class="major">
+										<h2>Reservations</h2>
+										<span calss="date">Every Day 11:00 A.M. – 11:00 P.M.</span>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
+										<p>Same Day Reservations are not guaranteed from booking online, please call us or send us a whatsapp to +1721-544-0440.
+										All reservations are confirmed via email, Please call us or send us a whatsapp if you have not received a confirmation
+										within 24 hours. +1721-544-0440.</P>
+							
+									<!--formulario de reservación-->
+									<div class="form-reservation">								
+										<section>
+											<h3 class="major">Form</h3>
+											<form method="post" action="Reservation.php">
+												<div class="fields">
+													<div class="field">
+														<label for="demo-name">Reservation Name*</label>
+														<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" required />
+													</div>
+													<div class="field half">
+														<label for="demo-email">Email*</label>
+														<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld"
+															required />
+													</div>
+													<div class="field half">
+														<label for="demo-name">Date*</label>
+														<input type="date" name="date" required />
+										
+													</div>
+													<div class="field half">
+														<label for="people">¿How many people?*</label>
+														<select name="people" id="people" required>
+															<option value="">-</option>
+															<option value="1">1 Person</option>
+															<option value="2">2 People</option>
+															<option value="3">3 People</option>
+															<option value="4">4 People</option>
+															<option value="5">4 People</option>
+															<option value="6">6 People</option>
+															<option value="7">7 People</option>
+															<option value="8">8 People</option>
+															<option value="9">9 People</option>
+															<option value="10">10 People</option>
+															<option value="11">11 People</option>
+															<option value="12">12 People</option>
+															<option value="12 more">More than 12</option>
+										
+														</select>
+													</div>
+													<div class="field half">
+														<label for="time">Time*</label>
+														<input type="time" name="time" max="22:30" min="11:00" step="1" required />
+													</div>
+													<div class="field half">
+														<input type="radio" id="demo-priority-low" value="Indoor" name="Indoor/Outdoor">
+														<label for="demo-priority-low">Indoor</label>
+													</div>
+													<div class="field half">
+														<input type="radio" id="demo-priority-high" value="Outdoor" name="Indoor/Outdoor">
+														<label for="demo-priority-high">Outdoor</label>
+													</div>
+										
+													<div class="field">
+														<label for="message">¿Something to keep in mind?</label>
+														<textarea name="message-text" id="message-text" placeholder="keep in mind" rows="6"></textarea>
+													</div>
+										
+												</div>
+												<ul class="actions">
+													<li><input type="submit" value="Reserve" class="button large" /></li>
+													<li><input type="reset" value="clean" class="button large" /></li>
+													<li><a href="#header" class="button icon solid solo fa-arrow-up scrolly">Up</a></li>
+												</ul>
+											</form>
+										</section>
+									</div>
 								</article>
 							</section>
-
-						<!-- Footer 
-							<footer>
-								<div class="pagination"> -->
-									<!--<a href="#" class="previous">Prev</a>
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer> -->
-
-					</div>
+						</div>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -198,7 +187,7 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p>info@movidasxm.site</a></p>
+								<p>reservations@movidasxm.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>

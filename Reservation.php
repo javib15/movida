@@ -1,23 +1,34 @@
 <?php
-$name = $_POST['name'];
-$mail = $_POST['email'];
-$message = $_POST['message'];
+$name = $_POST['demo-name'];
+$mail = $_POST['demo-email'];
+$fecha = $_POST['fecha'];
+$category = $_POST['people'];
+$indoor = $_POST['Indoor/Outdoor'];
+$date = $_POST['date'];
+$time = $_POST['time'];
+$message1 = $_POST['message-text'];
 
-$header = 'From: ' . $mail. " \r\n";
+$header .= 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
-$message = "Email send by: " . $name. " \r\n";
-$message .= "Email: " . $mail. " \r\n";
-$message .= "Message: " . $_POST['message'] . " \r\n";
-$message .= "Fue enviado... " . date('d/m/Y', time());
+$message .= "Reservation name: " . $_POST['demo-name']. " \r\n";
+$message .= "Email: " . $_POST['demo-email']. " \r\n";
+$message .= "Amount of People: " . $_POST['people'] . " \r\n";
+$message .= "Indoor or Outdoor : " . $_POST['Indoor/Outdoor'] . " \r\n";
+$message .= "Reservation date: " . $_POST['date'] . " \r\n";
+$message .= "Reservation time: " . $_POST['time'] . " \r\n";
+$message .= "Message: " . $_POST['message-text'] . " \r\n";
+
+$message .= "Reservation request date: " . date('d/m/Y', time());
 
 $para = "reservations@movidasxm.com";
-$asunto = 'Web Contact';
+$asunto = 'Reservation Movida Web site';
 
 
 mail($para, $asunto, utf8_decode($message), $header);
+
 
 
 ?>
@@ -32,7 +43,7 @@ mail($para, $asunto, utf8_decode($message), $header);
 
 <script type='text/javascript'>
 
-document.write('<a href="https://www.movidasxm.com/">Go Back</a>');
+document.write('<a href="https://www.movidasxm.com/">go Back</a>');
 
 </script>
 
@@ -46,7 +57,7 @@ document.write('<p class="details"><a href="https://www.movidasxm.com/">return t
 
 <script type='text/javascript'>
 
-setTimeout('https://www.movidasxm.site/', 9000);
+setTimeout('https://avantikasxm.com/', 9000);
 
 </script>
 
