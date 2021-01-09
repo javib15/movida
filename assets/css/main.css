@@ -2237,6 +2237,13 @@ input, select, textarea {
 				background-color: #18bfef;
 			}
 
+/*form reservation*/
+.form-reservation {
+
+   position: relative;
+   text-align: center;
+}
+
 /* Form */
 
 	form {
@@ -2339,8 +2346,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: transparent;
-		border-radius: 0;
+		background: #e7e8e9;
+		border-radius: 5px;
 		border: solid 2px;
 		color: inherit;
 		display: block;
@@ -2348,6 +2355,7 @@ input, select, textarea {
 		padding: 0 1rem;
 		text-decoration: none;
 		width: 100%;
+		
 	}
 
 		input[type="text"]:invalid,
@@ -2915,7 +2923,7 @@ input, select, textarea {
 			display: block;
 			font-size: 0.8rem;
 			height: 1;
-			margin: 0 0 1rem 0;
+			margin:5px;
 			position: relative;
 		}
 
@@ -2945,7 +2953,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 5px;
 			text-align: center;
 		}
 
