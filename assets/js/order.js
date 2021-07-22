@@ -1,0 +1,1 @@
+<script src = " https://www.fbgcdn.com/ embedder / js / ewm2.js" diferir async > </script>
